@@ -30,7 +30,6 @@ func main() {
 			os.Exit(1)
 		}
 		fmt.Printf("%s", b)
-		fmt.Printf("status:%d\n", resp.StatusCode)
-
+		// fmt.Printf("status:%d\n", resp.StatusCode)
 	}
 }
