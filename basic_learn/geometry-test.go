@@ -1,7 +1,7 @@
 package main
 
 import (
-	"abc/geometry"
+	"basic_learn/geometry"
 	"fmt"
 )
 

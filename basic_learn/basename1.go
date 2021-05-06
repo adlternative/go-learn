@@ -39,7 +39,7 @@ func basename2(s string) string {
 	return s
 }
 func main() {
-	s := "abc"
+	s := "basic_learn"
 	b := []byte(s)
 	s2 := string(b)
 	println(s2)

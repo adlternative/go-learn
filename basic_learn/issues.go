@@ -2,7 +2,7 @@
 package main
 
 import (
-	"abc/github"
+	"basic_learn/github"
 	"fmt"
 	"log"
 	"os"

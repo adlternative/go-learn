@@ -55,7 +55,7 @@ func main() {
 	fmt.Println(string(1234567)) // "?"
 	// fmt.Println(basename("a/b/c.go")) // "c"
 	// fmt.Println(basename("c.d.go"))   // "c.d"
-	// fmt.Println(basename("abc"))      // "abc"
+	// fmt.Println(basename("basic_learn"))      // "basic_learn"
 	fmt.Printf("%T\n", 0)      // "int"
 	fmt.Printf("%T\n", 0.0)    // "float64"
 	fmt.Printf("%T\n", 0i)     // "complex128"

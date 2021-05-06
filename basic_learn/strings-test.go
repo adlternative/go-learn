@@ -30,14 +30,14 @@ func main() {
 	}
 	fmt.Println(string(angleBytes))
 	fmt.Println(angel)
-	fmt.Println(strings.Contains("abc", "bc"))
+	fmt.Println(strings.Contains("basic_learn", "bc"))
 	fmt.Println(strings.Count("abbccbbcc aa bbcc", "bbcc"))
-	strs := strings.Fields("abc def eee")
+	strs := strings.Fields("basic_learn def eee")
 	for _, str := range strs {
 		println(str)
 	}
-	fmt.Println(strings.HasPrefix("abc def eee", "abc def"))
-	fmt.Println(strings.Index("abc def eee", "def"))
+	fmt.Println(strings.HasPrefix("basic_learn def eee", "basic_learn def"))
+	fmt.Println(strings.Index("basic_learn def eee", "def"))
 	println(strings.Join(strs, "#"))
 	println(bytes.Contains([]byte{'a', 'c', 'd'}, []byte{'c', 'd'}))
 	fmt.Println(intsToString([]int{1, 2, 3})) // "[1, 2, 3]"

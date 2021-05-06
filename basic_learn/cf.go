@@ -2,8 +2,8 @@
 package main
 
 import (
-	// "abc/popcount"
-	"abc/tempconv"
+	// "basic_learn/popcount"
+	"basic_learn/tempconv"
 	"flag"
 	"fmt"
 	// "os"

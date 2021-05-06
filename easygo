@@ -1,0 +1,6 @@
+#!/usr/bin/sh
+
+if test -n "$1"
+then 
+mkdir $1 && cd $1 && touch $1.go && echo "package $1" >$1.go
+fi
