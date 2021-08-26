@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	return
-	defer fmt.Println("GOodbye")
+	for i := 0; i < 10; i++ {
+		defer fmt.Println(i)
+	}
 }
